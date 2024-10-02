@@ -60,4 +60,4 @@ customer         | customer_id
 ```
 select table_name, column_name from information_schema.columns where table_schema = 'sakila' and column_key = 'PRI' ORDER BY table_name;
 ```
-![Права sys_temp](img/11.png)
+![Первичные ключи](img/11.png)
